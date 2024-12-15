@@ -1,0 +1,19 @@
+#body{
+    background-color: #F7FBFC;
+}
+
+#loginBox{
+    background-color: #F7FBFC;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+}
+input{
+  border: 1px black solid;
+    border-radius:.375rem ;
+    padding: .25rem;
+}
+label{
+  color: black;
+  font-weight: bold;
+}
+

@@ -1,0 +1,28 @@
+h1 {
+  color: #39a8b8;
+}
+
+#chatList {
+  background-color: white;
+}
+
+.item {
+  &:hover {
+    background-color: #e5e7eb !important;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 2px solid #39a8b8;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+  max-height: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e73879;
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}

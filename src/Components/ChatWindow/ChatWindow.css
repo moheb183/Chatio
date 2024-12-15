@@ -1,0 +1,21 @@
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #39a8b8;
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}
+
+.back-ground{
+  background-image: url('../../Assets/chat-bg.jpeg');
+  background-position: center;
+  background-size: contain;
+}
+.icon {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+}
